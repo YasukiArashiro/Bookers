@@ -1,2 +1,21 @@
-<h1>Books#show</h1>
-<p>Find me in app/views/books/show.html.erb</p>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>WebCampBackendNew</title>
+	<link rel="stylesheet" href="app/assets/stylesheets/show.css">
+</head>
+
+<body>
+
+	<p>Title:<%= @book.title %></p>
+
+	<p>Body:<%= @book.body %></p>
+
+	<a href="#">Edit</a>
+	<%= link_to 'Back', '/books' %>
+
+</body>
+
+</html>
