@@ -19,11 +19,11 @@ p {
 	margin: 33px;
 }
 
-span {
+strong {
 	font-weight: bold;
 }
 
-a {
+.link {
 	font-size: 13px;
 	line-height: 18px;
 	margin: 33px;
